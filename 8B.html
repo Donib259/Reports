@@ -1,0 +1,895 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Class 7 Examination Analysis Report</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 20px; }
+.container { max-width: 1200px; margin: 0 auto; }
+.section { margin-bottom: 30px; padding: 20px; background-color: #f5f5f5; border-radius: 8px; }
+table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }
+.plot-img { max-width: 100%; height: auto; margin: 10px 0; }
+
+button { 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    position: fixed; 
+    top: 20px; 
+    left: 20px; 
+    z-index: 1000; 
+}
+
+@media print {
+    button {
+        display: none;
+    }
+}
+
+
+</style>
+<script>
+function printPage() {
+    window.print();
+}
+</script>
+</head>
+<body>
+<div class="container">
+<center><h1>Class 8 B Examination Analysis Report</h1>
+        <h1>Session : 2023</h1>
+</center>
+<div class="section">
+<h2>Overall Statistics</h2>
+<p>Total Students: 67</p>
+<p>Boys: 39</p>
+<p>Girls: 28</p>
+<p>Total Pass: 36</p>
+<p>Total EIOP: 15</p>
+<p>Total Essential Repeat: 14</p>
+<p>Total Absentees: 2</p>
+
+</div>
+
+<div class="section">
+<h2>Overall Pass Percentages</h2>
+<p>Overall Pass Percentage: 55.38</p>
+<p>Boys Pass Percentage: 55.26</p>
+<p>Girls Pass Percentage: 55.56</p>
+</div>
+<div class="section">
+<h2>Top 3 tudents Overall</h2>
+<table class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>RANK</th>
+      <th>NAME</th>
+      <th>Percentage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>JYOTI KUMARI</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>NANDINI KUMARI</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>PRENA KUMARI</td>
+      <td>66</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="section">
+<h2>List of Pass Students</h2>
+<table class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>R.No</th>
+      <th>NAME</th>
+      <th>Percentage</th>
+      <th>REMARKS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>4</td>
+      <td>ABISHEK NEWAR</td>
+      <td>57</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>ADITYA BARDEWA</td>
+      <td>42</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>AMAN KUMAR</td>
+      <td>41</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>ANKITA SARKAR</td>
+      <td>41</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>ARJU ANSARI</td>
+      <td>36</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>ASHWINI SAPKOTA</td>
+      <td>39</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>BIJAY MANGER</td>
+      <td>36</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>DAKSH CHOUDHARY</td>
+      <td>56</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>DURGA SUBBA</td>
+      <td>35</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>GAJENDRA RAI</td>
+      <td>58</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>GOVIND PRASAD</td>
+      <td>57</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>JIGESH KUMAR</td>
+      <td>39</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>JYOTI KUMARI</td>
+      <td>72</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>KARMA DOMA BHUTIA</td>
+      <td>48</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>KARSON BHUTIA</td>
+      <td>51</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>KUMARI KIRAN</td>
+      <td>36</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>LACHUMAN CHETTRI</td>
+      <td>35</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>LAXMI PRADHAN</td>
+      <td>39</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>MD SHAHID ANSARI</td>
+      <td>41</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>NABINA KHATOON</td>
+      <td>40</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>NAITIK GUPTA</td>
+      <td>49</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>NAJNI KHATUN</td>
+      <td>40</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>NANDINI KUMARI</td>
+      <td>67</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>NOEL CINTURY</td>
+      <td>43</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>PRENA KUMARI</td>
+      <td>66</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>RABEEKA TAMANG</td>
+      <td>51</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>RAJ BISHWAKARMA</td>
+      <td>38</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>ROBIN PRASAD</td>
+      <td>42</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>56</td>
+      <td>RUBON TAMANG</td>
+      <td>36</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>57</td>
+      <td>SAMJHANA KUMARI</td>
+      <td>65</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>59</td>
+      <td>SHAHID ANSARI</td>
+      <td>35</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>SHERAB LEPCHA</td>
+      <td>40</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>SMRITI SAPKOTA</td>
+      <td>46</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>64</td>
+      <td>TRIDITYA PRADHAN</td>
+      <td>45</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>65</td>
+      <td>VICKY KUMAR</td>
+      <td>37</td>
+      <td>PASS</td>
+    </tr>
+    <tr>
+      <td>66</td>
+      <td>WANGDA DORJEE LEPCHA</td>
+      <td>49</td>
+      <td>PASS</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="section">
+<h2>List of EIOP Students</h2>
+<table class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>R.No</th>
+      <th>NAME</th>
+      <th>Subjects</th>
+      <th>Remarks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3</td>
+      <td>ABHISHEK CHETTRI</td>
+      <td>SCIENCE</td>
+      <td>EIOP</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>ANKITA KUMARI GUPTA</td>
+      <td>SOCIAL STUDIES</td>
+      <td>EIOP</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>BIPANA RAI</td>
+      <td>SOCIAL STUDIES</td>
+      <td>EIOP</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>DAWA DOLMA LEPCHA</td>
+      <td>SOCIAL STUDIES</td>
+      <td>EIOP</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>IMRAN KHAN</td>
+      <td>SOCIAL STUDIES</td>
+      <td>EIOP</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>KHEMRAJ CHETTRI</td>
+      <td>SCIENCE</td>
+      <td>EIOP</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>MD AFTAB</td>
+      <td>SOCIAL STUDIES</td>
+      <td>EIOP</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>MD MANWAR</td>
+      <td>ENGLISH, MATHS</td>
+      <td>EIOP</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>NEHAL MUKHIA</td>
+      <td>SOCIAL STUDIES</td>
+      <td>EIOP</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>PRAKRITI PRADHAN</td>
+      <td>ENGLISH</td>
+      <td>EIOP</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>PRATIMA BHUJEL</td>
+      <td>SOCIAL STUDIES</td>
+      <td>EIOP</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>PRAVIN CHETTRI</td>
+      <td>SOCIAL STUDIES</td>
+      <td>EIOP</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>PRERNA BARAL</td>
+      <td>SOCIAL STUDIES</td>
+      <td>EIOP</td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td>RAJIT ALAM</td>
+      <td>VERNACULAR, SOCIAL STUDIES</td>
+      <td>EIOP</td>
+    </tr>
+    <tr>
+      <td>67</td>
+      <td>YASHIKA BISHWAKARMA</td>
+      <td>ENGLISH, VERNACULAR</td>
+      <td>EIOP</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="section">
+<h2>List of Essential Repeat Students</h2>
+<table class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>R.No</th>
+      <th>NAME</th>
+      <th>Percentage</th>
+      <th>REMARKS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>AADARSHREE DARJEE</td>
+      <td>29</td>
+      <td>ESSENTIAL REPEAT</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>ABDUL FAHAD</td>
+      <td>23</td>
+      <td>ESSENTIAL REPEAT</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>AISHA KUMARI</td>
+      <td>31</td>
+      <td>ESSENTIAL REPEAT</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>ANMOL GIRI</td>
+      <td>28</td>
+      <td>ESSENTIAL REPEAT</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>KARAN SHARMA</td>
+      <td>24</td>
+      <td>ESSENTIAL REPEAT</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>KELAAB LIMBO</td>
+      <td>28</td>
+      <td>ESSENTIAL REPEAT</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>KRISHNA BISWAKARMA</td>
+      <td>28</td>
+      <td>ESSENTIAL REPEAT</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>NEERAJ KUMAR</td>
+      <td>20</td>
+      <td>ESSENTIAL REPEAT</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>PABITRA BISHWAKARMA</td>
+      <td>28</td>
+      <td>ESSENTIAL REPEAT</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>PRAGYAT SUBBA</td>
+      <td>18</td>
+      <td>ESSENTIAL REPEAT</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>PRIYANKA ROY</td>
+      <td>25</td>
+      <td>ESSENTIAL REPEAT</td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td>RINCHEN DOMA TAMANG</td>
+      <td>24</td>
+      <td>ESSENTIAL REPEAT</td>
+    </tr>
+    <tr>
+      <td>62</td>
+      <td>SOHIL KHAN</td>
+      <td>30</td>
+      <td>ESSENTIAL REPEAT</td>
+    </tr>
+    <tr>
+      <td>63</td>
+      <td>SURAJ PATEL</td>
+      <td>25</td>
+      <td>ESSENTIAL REPEAT</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="section">
+<h2>List of Absentees</h2>
+<table class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>R.No</th>
+      <th>NAME</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>55</td>
+      <td>ROHAN CHETTRI</td>
+    </tr>
+    <tr>
+      <td>58</td>
+      <td>SEIKH ASIF</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="section">
+<h2>Grade Count Table Per Subject</h2>
+<table class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Subject</th>
+      <th>Grade</th>
+      <th>Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ENGLISH</td>
+      <td>B1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>ENGLISH</td>
+      <td>B2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>ENGLISH</td>
+      <td>C1</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>ENGLISH</td>
+      <td>C2</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>ENGLISH</td>
+      <td>D</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>ENGLISH</td>
+      <td>E</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>HINDI</td>
+      <td>A1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HINDI</td>
+      <td>A2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HINDI</td>
+      <td>B1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>HINDI</td>
+      <td>B2</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>HINDI</td>
+      <td>C1</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>HINDI</td>
+      <td>C2</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>HINDI</td>
+      <td>D</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>HINDI</td>
+      <td>E</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>MATHS</td>
+      <td>B1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>MATHS</td>
+      <td>B2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>MATHS</td>
+      <td>C1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>MATHS</td>
+      <td>C2</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>MATHS</td>
+      <td>D</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>MATHS</td>
+      <td>E</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>SCIENCE</td>
+      <td>B1</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>SCIENCE</td>
+      <td>B2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>SCIENCE</td>
+      <td>C1</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>SCIENCE</td>
+      <td>C2</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>SCIENCE</td>
+      <td>D</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>SCIENCE</td>
+      <td>E</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>SOCIAL STUDIES</td>
+      <td>C1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>SOCIAL STUDIES</td>
+      <td>C2</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>SOCIAL STUDIES</td>
+      <td>D</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>SOCIAL STUDIES</td>
+      <td>E</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>VERNACULAR</td>
+      <td>B1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>VERNACULAR</td>
+      <td>B2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>VERNACULAR</td>
+      <td>C1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>VERNACULAR</td>
+      <td>C2</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>VERNACULAR</td>
+      <td>D</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>VERNACULAR</td>
+      <td>E</td>
+      <td>18</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="section">
+<h2>List of SC and ST Toppers (Top 3 Boys and Girls)</h2>
+<table class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>R.No</th>
+      <th>NAME</th>
+      <th>Gender</th>
+      <th>Community</th>
+      <th>Percentage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>41</td>
+      <td>NOEL CINTURY</td>
+      <td>MALE</td>
+      <td>SC</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>ADITYA BARDEWA</td>
+      <td>MALE</td>
+      <td>SC</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>RAJ BISHWAKARMA</td>
+      <td>MALE</td>
+      <td>SC</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>67</td>
+      <td>YASHIKA BISHWAKARMA</td>
+      <td>FEMALE</td>
+      <td>SC</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>AADARSHREE DARJEE</td>
+      <td>FEMALE</td>
+      <td>SC</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>PABITRA BISHWAKARMA</td>
+      <td>FEMALE</td>
+      <td>SC</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>KARSON BHUTIA</td>
+      <td>MALE</td>
+      <td>ST</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <td>66</td>
+      <td>WANGDA DORJEE LEPCHA</td>
+      <td>MALE</td>
+      <td>ST</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>SHERAB LEPCHA</td>
+      <td>MALE</td>
+      <td>ST</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>RABEEKA TAMANG</td>
+      <td>FEMALE</td>
+      <td>ST</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>KARMA DOMA BHUTIA</td>
+      <td>FEMALE</td>
+      <td>ST</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>DAWA DOLMA LEPCHA</td>
+      <td>FEMALE</td>
+      <td>ST</td>
+      <td>36</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="section">
+<h2>Top 3 Students with Maximum Attendance</h2>
+<table class="dataframe table table-bordered">
+  <thead>
+    <tr style="text-align: right;">
+      <th>R.No</th>
+      <th>NAME</th>
+      <th>Attendance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>22</td>
+      <td>JYOTI KUMARI</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>NAJNI KHATUN</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>RABEEKA TAMANG</td>
+      <td>98</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="section">
+<h2>Attendance Statistics</h2>
+<p>Overall Attendance Percentage: 85.10%</p>
+<p>Boys Attendance Percentage: 82.90%</p>
+<p>Girls Attendance Percentage: 88.18%</p>
+</div>
+</div>
+<!-- Print Button -->
+    <div style="text-align: left; margin-bottom: 10px;">
+        <button onclick="printPage()">
+            Print Report
+        </button>
+    </div>
+
+</body>
+</html>
